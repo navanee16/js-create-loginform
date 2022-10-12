@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login-main{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 90px;
+    background-color: gray;
+}
+
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-left: 50px;
+    
+}
+input{
+    /* display: block; */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin: 10px;
+    font-size: 20px;
+}
+input:hover{
+    border-bottom: 5px solid; 
+    /* box-shadow: 0px,0px,10px,5px red; */
+}
+input:focus{
+    background-color: lightblue;
+
+
+}
+label{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.submit{
+    background-color: blue;
+}
