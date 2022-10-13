@@ -12,23 +12,31 @@
     <div class="container">
         <div class="login-wrapper">
             <!-- <h3>login here</h3> -->
-            <form id="form">
-                <label for="">Username</label>
-                    <input type="text" placeholder="username" id="username">
-                    <i class="fa-sharp fa-solid fa-circle-check"></i>
-                <label for="">Email</label>
-                    <input type="email" placeholder="email" id="email">
+            <form id="form" action="" method="get">
+                <label for="username">Username</label>
+                    <input type="text" placeholder="Enter the username" id="username" required>
+                    <!-- <i class="fa-sharp fa-solid fa-circle-check"></i> -->
+                <label for="email">Email</label>
+                    <input type="email" placeholder="Enter the email" id="email" required>
+                    <!-- <i class="fa-duotone fa-box-check"></i> -->
+                <label for="password">Password</label>
+                    <input type="password" placeholder="Enter the password" id="password" required>
                 
-                <label for="">Password</label>
-                    <input type="password" placeholder="password" id="password">
-                
-                <label for="">Conformpassword</label>
-                    <input type="password" placeholder="conformpassword" id="password2">
+                <label for="password2">Confirmpassword</label>
+                    <input type="password" placeholder="Enter the confirmpassword" id="password2" required>
                 
                 <input type="submit" class="submit">
             </form>
         </div>
     </div>    
+    </div>
+
+    <div class="flex-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
     </div>
     <script src="./main.js"></script>
 </body>
